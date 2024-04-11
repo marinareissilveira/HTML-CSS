@@ -116,10 +116,10 @@ main p{
 
 
 
-main > h2{
+main h2{
     font-family: idroid, Helvetica, sans-serif;
     color: #1a5c38;
-    background-image: linear-gradient(to right, #6eb58e78, white );
+    background-image: linear-gradient(to right, #6eb58e78, transparent );
 }
 article{
     margin: 0px -20px;
