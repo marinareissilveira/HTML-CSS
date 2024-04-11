@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Resident evil-favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site por diversas dispositivos ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="Imagem flexível">
+    </picture>
+    <hr>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/gatinho-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/gatinho-m.jpg" type="image/jpg">
+        <img src="imagens/gatinho-g.jpg" alt="gatinho flexível">
+    </picture>
+    <hr>
+
+    <h2>Reproduzindo áudios</h2>
+    <p>Vamos aprender a reproduzir áudios no HTML5.</p>
+    <ul>
+        <li>Take Me Out To The Ballgame:<audio src="midia/Take Me Out To The Ballgame - Freedom Trail Studio.mp3" controls preload="metadata"></audio></li>
+        <li>Take You Home Tonight:<audio src="midia/Take You Home Tonight - Vibe Tracks.mp3" controls preload="metadata"></audio></li>
+    </ul>
+    <hr>
+    <p>As vezes alguns formatos não são compativeis com o navegador, sendo assim pode-se usar uma outra tag no lugar.</p>
+    <audio preload="metadata" controls>
+        <source src="midia/Take Me Out To The Ballgame - Freedom Trail Studio.mp3" type="audio/mpeg">
+        <source src="midia/Take Me Out To The Ballgame - Freedom Trail Studio.ogg" type="audio/ogg">
+        <source src="midia/Take Me Out To The Ballgame - Freedom Trail Studio.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não pode iniciar os áudios. <a href="midia/Take Me Out To The Ballgame - Freedom Trail Studio.mp3">Clique aqui</a> para baixar o arquivo MP3..</p>
+    </audio>
+    <hr>
+</body>
+</html>

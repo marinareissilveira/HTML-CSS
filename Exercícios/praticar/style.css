@@ -1,0 +1,25 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Rubik+Scribble&display=swap');
+
+
+body{
+    background-image: linear-gradient(to right, rgb(227, 0, 0), rgb(97, 48, 48));
+    font-family: Fredoka, sans-serif;
+}
+h1{
+   font-weight: 700; 
+}
+h2{
+    font-family: Rubik Scribble, sans-serif;
+}
+p{
+    font-weight: 200;
+    background-color: blueviolet;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 3px rgb(202, 182, 182);
+}
+ol, ul{
+    font-weight: 300;
+}

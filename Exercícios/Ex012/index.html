@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos no HTML</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video src="videos/Assassins Creed Unity_07-10-2023_0-11-11-827.mp4" width="500" controls poster="capa-assassins-creed.png"></video>
+    <hr>
+    <p>Aqui temos o mesmo vídeo mas com mais opções de formato para melhor acesso em todos os navegadores.</p>
+    <video controls width="500" poster="capa-assassins-creed.png">
+        <source src="videos/Assassins Creed Unity_07-10-2023_0-11-11-827.mp4" type="video/mp4">
+        <source src="videos/Assassins Creed Unity 07-10-2023 0-11-11-827.ogv" type="video/ogv">
+        <source src="videos/meu-video-ac.mkv" type="video/mkv">
+        <source src="videos/meu-video-ac.webm" type="video/webm">
+        <p>Perdão! Parece que seu navegador não consegue carregar este vídeo.</p>
+    </video>
+    <hr>
+    <h1>Inserindo vídeos do Youtube!</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_oYSiPBUuC8?si=o8N3EQuJIFsGHzIL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <hr>
+    <h1>Inserindo videos do Vimeo!</h1>
+    <iframe src="https://player.vimeo.com/video/126287950?h=c655f0ff29" width="500" height="270" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/126287950">Klaus teaser &copy;2015 Sergio Pablos Animation Studios, S.L. &amp; ANTENA 3 FILMS, S.L.U. All rights reserved</a> from <a href="https://vimeo.com/thespastudios">The SPA Studios</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>
