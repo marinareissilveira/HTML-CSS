@@ -1,0 +1,60 @@
+@charset "UTF-08";
+
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+/*--------------------------------------------------------------*/
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*--------------------------------------------------------------*/
+
+/*CABEÇALHO*/
+
+header{
+    background-color: black;
+    padding: 10px;
+    
+}
+
+header > h1{
+    font-family: Passion One, Arial, Helvetica, sans-serif;
+    font-size: 9vw;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px; 
+}
+
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+/*----------------------------------------------------------------*/
+
+/*Primeira parte do poema*/
+
+#first-section > p{
+    font-size: 4em;
+    margin-left: 30px;
+    padding-bottom: 50px;
+    font-family: Sriracha, Arial, Helvetica, sans-serif;
+    
+    
+}
+
