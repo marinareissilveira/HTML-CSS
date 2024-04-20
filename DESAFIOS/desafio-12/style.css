@@ -48,13 +48,55 @@ header a:hover{
 /*----------------------------------------------------------------*/
 
 /*Primeira parte do poema*/
-
-#first-section > p{
-    font-size: 4em;
-    margin-left: 30px;
-    padding-bottom: 50px;
-    font-family: Sriracha, Arial, Helvetica, sans-serif;
-    
-    
+#first-section{
+    background-color: white;
+    box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0);
 }
 
+#first-section > p{
+    margin: 0px;
+    font-size: 3.5em;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-family: Sriracha, Arial, Helvetica, sans-serif;
+}
+
+/*Segunda parte do poema*/
+#imagem-joaninha{
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#imagem-joaninha p{
+    background-color: rgba(0, 0, 0, 0.466);
+    display: inline-block;
+    padding: 10px;
+    font-size: 3.5em;
+    color: white;
+    margin-left: 30px;
+    font-family: Sriracha, Arial, Helvetica, sans-serif;
+}
+
+/*Terceira parte do poema*/
+
+#second-section{
+    margin: 0px;
+    font-size: 3.5em;
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-family: Sriracha, Arial, Helvetica, sans-serif;
+}
+
+#second-section2{
+    margin: 0px;
+    font-size: 3.5em;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    font-family: Sriracha, Arial, Helvetica, sans-serif;
+}
