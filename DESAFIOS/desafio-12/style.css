@@ -101,3 +101,67 @@ header a:hover{
     padding-bottom: 100px;
     font-family: Sriracha, Arial, Helvetica, sans-serif;
 }
+
+/*Quarta parte do poema*/
+
+#imagem-livros{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#imagem-livros p{
+    background-color: rgba(0, 0, 0, 0.466);
+    display: inline-block;
+    padding: 10px;
+    font-size: 3.5em;
+    color: white;
+    margin-left: 30px;
+    font-family: Sriracha, Arial, Helvetica, sans-serif;
+}
+
+/*Quinta parte do poema*/
+
+#third-section{
+    margin: 0px;
+    font-size: 3.5em;
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-family: Sriracha, Arial, Helvetica, sans-serif;
+}
+
+#third-section2{
+    margin: 0px;
+    font-size: 3.5em;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    font-family: Sriracha, Arial, Helvetica, sans-serif;
+}
+
+/*RODA-PÉ*/
+
+footer{
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+}
+
+footer p{
+    font-family: verdana, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0%;
+    color: white;
+}
+
+footer p > a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p > a:hover{
+    text-decoration: underline;
+}
